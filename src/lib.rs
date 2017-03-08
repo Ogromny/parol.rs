@@ -1,7 +1,13 @@
 //! Core of parol.rs.
 
+#[macro_use]
+extern crate serde_derive;
+
+#[macro_use]
+extern crate serde_json;
+
 /// Principal component.
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Parol {
     application: String,
     username: String,
@@ -128,7 +134,7 @@ impl Parol {
 }
 
 /// ```Parol```s containers.
-#[derive(Debug)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct Parols {
     parols: Vec<Parol>,
     len: usize,
@@ -166,6 +172,17 @@ impl Parols {
         Parols {
             parols: database,
             len: len,
+        }
+    }
+
+    /// Constructs a new, ```Parols``` from a json.
+    ///
+    /// # Arguments
+    /// * `json` - A database in json format.
+    pub fn new_from_json(json: &str) -> Parols {
+        match serde_json::from_str(json) {
+            Ok(parols) => parols,
+            Err(err) => panic!("{}", err),
         }
     }
 
@@ -247,5 +264,18 @@ impl Parols {
             self.len = self.parols.len();
             return Ok(n)
         }
+    }
+
+    /// Return the ```Parols``` in json format.
+    pub fn to_json(&self) -> String {
+        match serde_json::to_string(&self) {
+            Ok(json) => json,
+            Err(err) => panic!("{}", err),
+        }
+    }
+
+    /// Return the number of ```Parol``` contained in the ```Parols```.
+    pub fn len(&self) -> usize {
+        self.len
     }
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cfd847e-c367-4ada-bc98-a5a11ac8968a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Cargo__parol_rs_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Cargo__parol_rs_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/parol.rs.iml" afterPath="$PROJECT_DIR$/.idea/parol.rs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cargo.toml" afterPath="$PROJECT_DIR$/Cargo.toml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib.rs" afterPath="$PROJECT_DIR$/src/lib.rs" />
     </list>
@@ -26,17 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lib.rs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lib.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="976">
-              <caret line="238" column="52" lean-forward="false" selection-start-line="238" selection-start-column="52" selection-end-line="238" selection-end-column="52" />
+            <state relative-caret-position="220">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
-                <element signature="e#4252#4372#0" expanded="false" />
-                <element signature="e#4731#4867#0" expanded="false" />
-                <element signature="e#5315#5576#0" expanded="false" />
-                <element signature="e#5827#5922#0" expanded="false" />
-                <element signature="e#6324#6602#0" expanded="false" />
+                <element signature="n#!!block;n#Parol#0" expanded="false" />
+                <element signature="e#286#3553#0" expanded="false" />
+                <element signature="n#!!block;n#Parols#0" expanded="false" />
+                <element signature="e#3688#7394#0" expanded="false" />
+                <element signature="e#4380#4500#0" expanded="false" />
+                <element signature="e#5755#6016#0" expanded="false" />
+                <element signature="e#6267#6362#0" expanded="false" />
+                <element signature="e#6764#7042#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -45,18 +51,18 @@
       <file leaf-file-name="parol.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/parol.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+            <state relative-caret-position="66">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="option.rs" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
+      <file leaf-file-name="parols.rs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/parols.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3256">
-              <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+            <state relative-caret-position="594">
+              <caret line="27" column="70" lean-forward="true" selection-start-line="26" selection-start-column="76" selection-end-line="27" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -65,8 +71,8 @@
       <file leaf-file-name="Cargo.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cargo.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="132">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -100,9 +106,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/parol/mod.rs" />
         <option value="$PROJECT_DIR$/src/parol.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
         <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/tests/parol.rs" />
-        <option value="$PROJECT_DIR$/src/main.rs" />
+        <option value="$PROJECT_DIR$/tests/parols.rs" />
         <option value="$PROJECT_DIR$/src/lib.rs" />
       </list>
     </option>
@@ -137,7 +144,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,6 +186,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -212,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.Run parol">
+  <component name="RunManager" selected="Cargo Command.Test test_json (1)">
     <configuration default="false" name="Run parol" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <parameters>
         <option name="additionalArguments">
@@ -230,7 +237,7 @@
       <module name="parol.rs" />
       <method />
     </configuration>
-    <configuration default="false" name="Test test_new" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration default="false" name="Test test_json" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <parameters>
         <option name="additionalArguments">
           <list>
@@ -238,7 +245,7 @@
             <option value="parol" />
             <option value="--test" />
             <option value="parol" />
-            <option value="test_new" />
+            <option value="test_json" />
           </list>
         </option>
         <option name="command" value="test" />
@@ -250,7 +257,7 @@
       <module name="parol.rs" />
       <method />
     </configuration>
-    <configuration default="false" name="Test test_application" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration default="false" name="Test parol" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <parameters>
         <option name="additionalArguments">
           <list>
@@ -258,7 +265,7 @@
             <option value="parol" />
             <option value="--test" />
             <option value="parol" />
-            <option value="test_application" />
+            <option value="" />
           </list>
         </option>
         <option name="command" value="test" />
@@ -270,7 +277,7 @@
       <module name="parol.rs" />
       <method />
     </configuration>
-    <configuration default="false" name="Test test_password" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration default="false" name="Test test_new_with_arguments" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <parameters>
         <option name="additionalArguments">
           <list>
@@ -278,7 +285,27 @@
             <option value="parol" />
             <option value="--test" />
             <option value="parol" />
-            <option value="test_password" />
+            <option value="test_new_with_arguments" />
+          </list>
+        </option>
+        <option name="command" value="test" />
+        <option name="environmentVariables">
+          <map />
+        </option>
+        <option name="printBacktrace" value="true" />
+      </parameters>
+      <module name="parol.rs" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test test_json (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <parameters>
+        <option name="additionalArguments">
+          <list>
+            <option value="--package" />
+            <option value="parol" />
+            <option value="--test" />
+            <option value="parols" />
+            <option value="test_json" />
           </list>
         </option>
         <option name="command" value="test" />
@@ -727,18 +754,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cargo Command.Run parol" />
-      <item index="1" class="java.lang.String" itemvalue="Cargo Command.Test test_new" />
-      <item index="2" class="java.lang.String" itemvalue="Cargo Command.Test test_application" />
-      <item index="3" class="java.lang.String" itemvalue="Cargo Command.Test test_password" />
+      <item index="1" class="java.lang.String" itemvalue="Cargo Command.Test test_json" />
+      <item index="2" class="java.lang.String" itemvalue="Cargo Command.Test parol" />
+      <item index="3" class="java.lang.String" itemvalue="Cargo Command.Test test_new_with_arguments" />
+      <item index="4" class="java.lang.String" itemvalue="Cargo Command.Test test_json (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Cargo Command.Run parol" />
-        <item index="1" class="java.lang.String" itemvalue="Cargo Command.Test test_password" />
-        <item index="2" class="java.lang.String" itemvalue="Cargo Command.Test test_application" />
-        <item index="3" class="java.lang.String" itemvalue="Cargo Command.Test test_new" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Cargo Command.Test test_json (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Cargo Command.Test parol" />
+        <item index="2" class="java.lang.String" itemvalue="Cargo Command.Test test_new_with_arguments" />
+        <item index="3" class="java.lang.String" itemvalue="Cargo Command.Test test_json" />
+        <item index="4" class="java.lang.String" itemvalue="Cargo Command.Run parol" />
       </list>
     </recent_temporary>
   </component>
@@ -746,6 +775,9 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="$USER_HOME$/.Toolbox/dic" Dictionaries="0" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2cfd847e-c367-4ada-bc98-a5a11ac8968a" name="Default" comment="" />
@@ -757,12 +789,16 @@
       <workItem from="1488717959882" duration="666000" />
       <workItem from="1488718649480" duration="345000" />
       <workItem from="1488719468194" duration="12016000" />
-      <workItem from="1488749231772" duration="3673000" />
+      <workItem from="1488749231772" duration="4692000" />
+      <workItem from="1488904483649" duration="814000" />
+      <workItem from="1488929995235" duration="3187000" />
+      <workItem from="1488994657326" duration="11000" />
+      <workItem from="1488994696877" duration="669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17719000" />
+    <option name="totallyTimeSpent" value="23419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,37 +814,55 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837406" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -824,14 +878,181 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="196" column="11" lean-forward="false" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parols.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="196" column="11" lean-forward="false" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parols.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#4252#4372#0" expanded="false" />
-            <element signature="e#4731#4867#0" expanded="false" />
-            <element signature="e#5315#5576#0" expanded="false" />
-            <element signature="e#5827#5922#0" expanded="false" />
-            <element signature="e#6324#6602#0" expanded="false" />
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,11 +1086,14 @@
         <state relative-caret-position="176">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="e#4252#4372#0" expanded="false" />
-            <element signature="e#4731#4867#0" expanded="false" />
-            <element signature="e#5315#5576#0" expanded="false" />
-            <element signature="e#5827#5922#0" expanded="false" />
-            <element signature="e#6324#6602#0" expanded="false" />
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,11 +1104,14 @@
         <state relative-caret-position="506">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#4252#4372#0" expanded="false" />
-            <element signature="e#4731#4867#0" expanded="false" />
-            <element signature="e#5315#5576#0" expanded="false" />
-            <element signature="e#5827#5922#0" expanded="false" />
-            <element signature="e#6324#6602#0" expanded="false" />
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,11 +1122,14 @@
         <state relative-caret-position="506">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#4252#4372#0" expanded="false" />
-            <element signature="e#4731#4867#0" expanded="false" />
-            <element signature="e#5315#5576#0" expanded="false" />
-            <element signature="e#5827#5922#0" expanded="false" />
-            <element signature="e#6324#6602#0" expanded="false" />
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,22 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,45 +1176,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="295" column="15" lean-forward="false" selection-start-line="295" selection-start-column="15" selection-end-line="295" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs" />
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcollections/string.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="262" column="12" lean-forward="false" selection-start-line="262" selection-start-column="12" selection-end-line="262" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="1234" column="11" lean-forward="false" selection-start-line="1234" selection-start-column="11" selection-end-line="1234" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="238" column="52" lean-forward="false" selection-start-line="238" selection-start-column="52" selection-end-line="238" selection-end-column="52" />
+        <state relative-caret-position="220">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <element signature="e#4252#4372#0" expanded="false" />
-            <element signature="e#4731#4867#0" expanded="false" />
-            <element signature="e#5315#5576#0" expanded="false" />
-            <element signature="e#5827#5922#0" expanded="false" />
-            <element signature="e#6324#6602#0" expanded="false" />
+            <element signature="n#!!block;n#Parol#0" expanded="false" />
+            <element signature="e#286#3553#0" expanded="false" />
+            <element signature="n#!!block;n#Parols#0" expanded="false" />
+            <element signature="e#3688#7394#0" expanded="false" />
+            <element signature="e#4380#4500#0" expanded="false" />
+            <element signature="e#5755#6016#0" expanded="false" />
+            <element signature="e#6267#6362#0" expanded="false" />
+            <element signature="e#6764#7042#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parol.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parols.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="70" lean-forward="true" selection-start-line="26" selection-start-column="76" selection-end-line="27" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
