@@ -19,7 +19,7 @@ impl Parol {
     /// Constructs a new, empty ```Parol```.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let parol = Parol::new();
     /// ```
     pub fn new() -> Parol {
@@ -40,7 +40,7 @@ impl Parol {
     /// * `notes` - A notes, maybe a BIN or anything else ? No ? pass a empty &str ;).
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let twitter = Parol::new_with_arguments("twitter", "Ogromny", "super_strong_password", "rescue email: blabla@topmail.ru");
     /// ```
     pub fn new_with_arguments(application: &str, username: &str, password: &str, notes: &str) -> Parol {
@@ -63,7 +63,7 @@ impl Parol {
     /// * `application` - New application name.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let twitter = Parol::new();
     /// twitter.set_application("twitter");
     /// assert_eq!(twitter.get_application(), "twitter");
@@ -83,7 +83,7 @@ impl Parol {
     /// * `username` - New username.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let twitter = Parol::new();
     /// twitter.set_username("Ogromny");
     /// assert_eq!(twitter.get_username(), "Ogromny");
@@ -103,7 +103,7 @@ impl Parol {
     /// * `password` - New password.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let twitter = Parol::new();
     /// twitter.set_password("super_strong_password");
     /// assert_eq!(twitter.get_password(), "super_strong_password");
@@ -123,7 +123,7 @@ impl Parol {
     /// * `notes` - New notes.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let twitter = Parol::new();
     /// twitter.set_notes("Rescue email: blabla@topmail.ru");
     /// assert_eq!(twitter.get_notes(), "Rescue email: blabla@topmail.ru");
@@ -144,7 +144,7 @@ impl Parols {
     /// Constructs a new, empty ```Parols```.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let parols = Parols::new();
     /// ```
     pub fn new() -> Parols {
@@ -160,7 +160,7 @@ impl Parols {
     /// * `database` - A Vector of Parol.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// let mut vector_of_parol = Vec::new();
     /// for i in 0 .. 10 {
     /// vector_of_parol.push(Parol::new());
@@ -192,7 +192,7 @@ impl Parols {
     /// * `id` - ID of the desired Parol.
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// match parols.get(5) {
     ///     Some(p) => println!("{}", p),
     ///     None => {},
@@ -213,7 +213,7 @@ impl Parols {
     /// * `parol` - new Parol
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// match parols.set(5, parol) {
     ///     Ok(()) => {},
     ///     Err(err) => println!("err = {:?}", err),
@@ -235,7 +235,7 @@ impl Parols {
     /// * `parol` - the Parol to append
     ///
     /// # Exemples
-    /// ```
+    /// ```ignore
     /// parols.push(Parol::new());
     /// ```
     pub fn push(&mut self, parol: Parol) -> usize {
@@ -250,7 +250,7 @@ impl Parols {
     /// * `id` - id of the Parol
     ///
     /// # Examples
-    /// ```
+    /// ```ignore
     /// match ps.remove(7) {
     ///     Ok(parol) => println!("parol = {:?}", parol),
     ///     Err(err) => println!("err = {:?}", err),
