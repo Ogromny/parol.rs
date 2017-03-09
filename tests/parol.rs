@@ -1,6 +1,6 @@
 extern crate parol;
 
-use parol::Parol;
+use parol::core::Parol;
 
 #[test]
 fn test_application() {

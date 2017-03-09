@@ -1,6 +1,6 @@
 extern crate parol;
 
-use parol::{Parol, Parols};
+use parol::core::{Parol, Parols};
 
 #[test]
 fn test_json() {
